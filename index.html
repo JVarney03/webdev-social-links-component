@@ -1,34 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Social links profile</title>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main class="h-screen w-screen content-center bg-zinc-900">
+      <div
+        class="mx-auto flex w-4/5 flex-col items-center rounded-md bg-zinc-800 p-7 text-center text-white sm:max-w-80"
+      >
+        <img
+          class="mb-5 w-20 rounded-full"
+          src="assets/images/avatar-jessica.jpeg"
+          alt=""
+        />
+        <h1 class="text-2xl font-bold">Jessica Randall</h1>
+        <h2 class="mb-5 text-sm font-semibold text-lime-300">
+          London, United Kingdom
+        </h2>
+        <h2 class="mb-4 text-sm text-slate-200">
+          "Front-end developer and avid reader"
+        </h2>
+        <ul class="w-full text-sm font-bold">
+          <li>
+            <button
+              class="hocus:text-black hocus:bg-lime-300 mb-3 w-full rounded-lg bg-zinc-700 py-2"
+            >
+              GitHub
+            </button>
+          </li>
+          <li>
+            <button
+              class="hocus:bg-lime-300 hocus:text-black mb-3 w-full rounded-lg bg-zinc-700 py-2"
+            >
+              Frontend Mentor
+            </button>
+          </li>
+          <li>
+            <button
+              class="hocus:bg-lime-300 hocus:text-black mb-3 w-full rounded-lg bg-zinc-700 py-2"
+            >
+              LinkedIn
+            </button>
+          </li>
+          <li>
+            <button
+              class="hocus:bg-lime-300 hocus:text-black mb-3 w-full rounded-lg bg-zinc-700 py-2"
+            >
+              Twitter
+            </button>
+          </li>
+          <li>
+            <button
+              class="hocus:bg-lime-300 hocus:text-black mb-3 w-full rounded-lg bg-zinc-700 py-2"
+            >
+              Instagram
+            </button>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
